@@ -60,4 +60,3 @@ y = iris['target']
 my_pca = PCA(n_components=2)
 my_pca.fit(X)
 new_X = my_pca.transform()
-#new_X.shape
